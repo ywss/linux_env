@@ -154,6 +154,9 @@ alias dev45='10.241.12.45'
 
 alias psjava='ps aux | grep java | grep -v grep'
 
+alias umail_package='192.168.93.169'
+alias ssh_umail_package='ssh xuxiaorong@192.168.93.169'
+
 # for jruby
 #alias jgem='jruby -S gem'
 #alias jrake='jruby -S rake'
@@ -163,3 +166,8 @@ alias psjava='ps aux | grep java | grep -v grep'
 alias sndavpn='sudo openconnect --script /etc/vpnc/vpnc-script https://webvpn.snda.com'
 alias ant='ant -Ddist.module=/home/xuxiaorong/Workspace/sdo/branches/mail-dev-branch/dist/module'
 alias sd='sdcv'
+
+##########################################################
+# alias for link to online
+##########################################################
+
