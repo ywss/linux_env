@@ -28,6 +28,7 @@ alias grep='grep -I --color=always'
 alias egrep='egrep -I --color=always'
 alias cal='cal -3m'
 alias ee='emacsclient -t'
+alias et='emacsclient -t'
 alias ec='emacsclient -c'
 alias freeze='kill -STOP'
 alias ls='ls -h --color=auto -X --time-style="+[33m[[32m%Y-%m-%d [35m%k:%M[33m][m"'
@@ -163,7 +164,7 @@ alias ssh_umail_package='ssh xuxiaorong@192.168.93.169'
 #alias jrails='jruby -S rails'
 
 
-alias sndavpn='sudo openconnect --script /etc/vpnc/vpnc-script https://webvpn.snda.com'
+alias sndavpn='sudo openconnect -v --script /etc/vpnc/vpnc-script https://webvpn.snda.com'
 alias ant='ant -Ddist.module=/home/xuxiaorong/Workspace/sdo/branches/mail-dev-branch/dist/module'
 alias sd='sdcv'
 
