@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo openvpn --config /home/xuxiaorong/Documents/profile/vpn访问无锡机房/WuXi/WuXi.ovpn
