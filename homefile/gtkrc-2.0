@@ -35,3 +35,4 @@ ythickness=0
 class "GtkButton" style "gtkcompactextra"
 class "GtkToolbar" style "gtkcompactextra"
 class "GtkPaned" style "gtkcompactextra"
+include ".gtkrc-2.0-gnome-color-chooser"

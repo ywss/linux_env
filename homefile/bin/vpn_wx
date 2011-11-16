@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo openvpn --config /home/xuxiaorong/Documents/profile/vpn访问无锡机房/WuXi/WuXi.ovpn
+sudo sh -c "cd /home/xuxiaorong/Documents/profile/vpn访问无锡机房/WuXi/; openvpn --config /home/xuxiaorong/Documents/profile/vpn访问无锡机房/WuXi/WuXi.ovpn"
+

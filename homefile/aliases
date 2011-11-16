@@ -171,4 +171,5 @@ alias sd='sdcv'
 ##########################################################
 # alias for link to online
 ##########################################################
-
+alias hosts_wx='online_hosts wx'
+alias netbeans='netbeans701 --jdkhome $JAVA_HOME'

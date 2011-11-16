@@ -4469,7 +4469,9 @@ fi
 
 [[ -s '/usr/local/lib/rvm' ]] && source '/usr/local/lib/rvm'
 
-
+export ORACLE_HOME=/home/oracle
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH
 export MULE_HOME=/home/tanglq/mule/mule-standalone-2.2.1
 export PATH=$MULE_HOME/bin:$PATH
+
 
