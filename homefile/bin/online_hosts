@@ -16,7 +16,7 @@ usage()
   echo "      2011-04-25   kevin.fujiang@gmail.com"
 }
 
-host_directory=/home/xuxiaorong/Documents/profile/online_hosts
+host_directory=/home/xuxiaorong/Workspace/github/mydotfile/homefile/hosts
 node=""
 
 if [ $# -gt 0 ]
