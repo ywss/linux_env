@@ -54,3 +54,4 @@ umongo2=root@10.150.20.56:58422 root@10.150.20.57:58422
 uw2=root@10.150.10.127:58422 root@10.150.10.128:58422 root@10.150.10.129:58422 root@10.150.10.130:58422
 uall=ua2 uw2 umongo1 umongo2
 uapp=ua2 uw2
+#aaaaaaa
