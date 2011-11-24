@@ -6,3 +6,4 @@ export ANT_HOME=/home/xuxiaorong/Programs/apache-ant-1.8.1
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$ANT_HOME/bin:$PATH
 export CLASSPATH=$JAVA_HOME/lib:$JRE_HOME/lib:$JAVA_HOME/lib/tools.jar
 
+#test
