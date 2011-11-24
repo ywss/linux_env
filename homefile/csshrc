@@ -45,3 +45,11 @@ unmap_on_redraw=no
 use_hotkeys=yes
 window_tiling=yes
 window_tiling_direction=right
+
+clusters=mongo1 mongo2 mongoconf mongodb frontapp backapp realmongo jobs ua2 umongo1 umongo2 uw2 umongo uall uapp
+ua2=root@10.150.10.124:58422 root@10.150.10.125:58422 root@10.150.10.126:58422
+umongo1=root@10.150.20.54:58422 root@10.150.20.55:58422
+umongo2=root@10.150.20.56:58422 root@10.150.20.57:58422
+uw2=root@10.150.10.127:58422 root@10.150.10.128:58422 root@10.150.10.129:58422 root@10.150.10.130:58422
+uall=ua2 uw2 umongo1 umongo2
+uapp=ua2 uw2
