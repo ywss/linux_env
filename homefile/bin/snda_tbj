@@ -1,0 +1,6 @@
+#!/bin/bash
+echo '==============================================='
+echo 'TBJ'
+echo '==============================================='
+
+ssh -i /home/xuxiaorong/Documents/profile/online_key/OpensshIdentity -p 58422 xuxiaorong@58.215.44.5
