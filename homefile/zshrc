@@ -4475,5 +4475,5 @@ export MULE_HOME=/home/tanglq/mule/mule-standalone-2.2.1
 export ANDROID_HOME=~/Programs/android-sdk-linux_x86
 
 # path
-export PATH=$ANDROID_HOME/platform-tools:$MULE_HOME/bin:$PATH
+export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$MULE_HOME/bin:$PATH
 
