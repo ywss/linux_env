@@ -1,7 +1,7 @@
 #!/bin/bash
 USER=`id | sed 's/uid=[0-9][0-9]*(\([^)]*\)).*/\1/'`
 USERID=`id | sed 's/uid=\([0-9][0-9]*\)(\([^)]*\)).*/\1/'`
-if [ ! -e /tmp/emacs$USERID/server];
+if [ ! -e /tmp/emacs$USERID/server ];
 then
 	echo "Starting server."
 	emacs --daemon

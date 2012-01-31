@@ -173,3 +173,25 @@ alias sd='sdcv'
 ##########################################################
 alias hosts_wx='online_hosts wx'
 alias netbeans='netbeans701 --jdkhome $JAVA_HOME'
+
+############################################################
+## Git
+############################################################
+alias g="git"
+alias gb="git branch -a -v"
+alias gc="git commit -v"
+alias gca="git commit -v -a"
+alias gd="git diff"
+alias gl="git pull"
+alias glr="git pull --rebase"
+alias gp="git push"
+alias gs="git status -sb"
+alias gg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+alias ggs="gg --stat"
+alias gsl="git shortlog -sn"
+alias gw="git whatchanged"
+alias gsr="git svn rebase"
+alias gsp="git svn dcommit"
+alias gsu="git submodule update --init --recursive"
+alias gi="git config branch.master.remote 'origin'; git config branch.master.merge 'refs/heads/master'"
+
