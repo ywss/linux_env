@@ -1,0 +1,4 @@
+#!/bin/bash
+#user     :domain users 
+#password :domain password + dynamic
+ssh -p 58422 xuxiaorong@58.215.169.201

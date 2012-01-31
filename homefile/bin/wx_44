@@ -1,0 +1,2 @@
+#!/bin/bash
+online_ssh 10.150.168.44
