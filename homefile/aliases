@@ -195,3 +195,8 @@ alias gsp="git svn dcommit"
 alias gsu="git submodule update --init --recursive"
 alias gi="git config branch.master.remote 'origin'; git config branch.master.merge 'refs/heads/master'"
 
+############################################################
+## Android
+############################################################
+alias al="adb logcat D/com.sdo.mobilemail"
+alias ad="adb devices"
