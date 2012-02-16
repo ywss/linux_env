@@ -7,3 +7,6 @@
 (prefer-coding-system 'utf-8-unix)
 (set-default default-buffer-file-coding-system 'utf-8-unix)
 
+
+
+;;(if (equal current-language-environment "UTF-8") (prefer-coding-system 'gb2312) (prefer-coding-system 'Utf-8) ) ) ) (add-hook 'set-language-environment-hook 'utf8gbk) (set-lanaguage-environment 'UTF-8)

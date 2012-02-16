@@ -54,7 +54,7 @@
 (add-hook 'before-save-hook (lambda () (whitespace-cleanup)))
 
 ;; Trash can support
-(setq delete-by-moving-to-trash t)
+;;(setq delete-by-moving-to-trash t)
 
 ;; `brew install aspell --lang=en` (instead of ispell)
 (setq-default ispell-program-name "aspell")
