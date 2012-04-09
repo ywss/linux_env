@@ -29,6 +29,7 @@
 (load "rmm5t/shell-mode")
 (load "rmm5t/private" 'noerror)
 (load "rmm5t/dict")
+;;(load "rmm5t/aux-line")
 
 ;; (load "rmm5t/hl-line")
 ;; (load "rmm5t/iswitchb")

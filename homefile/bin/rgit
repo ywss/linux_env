@@ -1,0 +1,16 @@
+#!/usr/bin/expect
+
+set username $env(git_username)
+set password $env(git_password)
+
+set timeout 15
+eval spawn git [ join $argv ] 
+
+expect {
+	"Username: " { 
+		send "$username\n"
+		expect "Password:"
+		send "$password\n"
+		interact
+	}
+}

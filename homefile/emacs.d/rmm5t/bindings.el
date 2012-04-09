@@ -52,11 +52,11 @@
 ;; Replace ibuffer's M-o
 (add-hook 'ibuffer-mode-hook (lambda () (define-key ibuffer-mode-map (kbd "M-o") 'other-window))) ; was ibuffer-visit-buffer-1-window
 ;; To help Unlearn C-x 0, 1, 2, o
-(global-unset-key (kbd "C-x 3")) ; was split-window-horizontally
-(global-unset-key (kbd "C-x 2")) ; was split-window-vertically
-(global-unset-key (kbd "C-x 1")) ; was delete-other-windows
-(global-unset-key (kbd "C-x 0")) ; was delete-window
-(global-unset-key (kbd "C-x o")) ; was other-window
+;;(global-unset-key (kbd "C-x 3")) ; was split-window-horizontally
+;;(global-unset-key (kbd "C-x 2")) ; was split-window-vertically
+;;(global-unset-key (kbd "C-x 1")) ; was delete-other-windows
+;;(global-unset-key (kbd "C-x 0")) ; was delete-window
+;;(global-unset-key (kbd "C-x o")) ; was other-window
 
 ;; Repeat
 (global-set-key [(control z)] 'repeat) ; was suspend-frame

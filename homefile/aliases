@@ -200,3 +200,7 @@ alias gi="git config branch.master.remote 'origin'; git config branch.master.mer
 ############################################################
 alias al="adb logcat D/com.sdo.mobilemail"
 alias ad="adb devices"
+alias gs='git status'
+alias ga='git add . '
+alias gps='git push master38 master' 
+alias gpl='git pull master38 master' 
