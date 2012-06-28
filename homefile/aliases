@@ -30,6 +30,7 @@ alias cal='cal -3m'
 alias ee='emacsclient -t'
 alias et='emacsclient -t'
 alias ec='emacsclient -c'
+alias vi=et
 alias freeze='kill -STOP'
 alias ls='ls -h --color=auto -X --time-style="+[33m[[32m%Y-%m-%d [35m%k:%M[33m][m"'
 alias ll='ls -l'
@@ -202,5 +203,5 @@ alias al="adb logcat D/com.sdo.mobilemail"
 alias ad="adb devices"
 alias gs='git status'
 alias ga='git add . '
-alias gps='git push master38 master' 
-alias gpl='git pull master38 master' 
+alias gps='git push master38 master'
+alias gpl='git pull master38 master'

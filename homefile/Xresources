@@ -1,31 +1,42 @@
-Rxvt.background:#1B2C18
-Rxvt.foreground:gray60
-Rxvt.geometry: 90x25+180+200
-Rxvt.colorBD:yellow
-Rxvt.colorUL:green
-Rxvt.cursorColor:red3
-Rxvt.color0:black
-Rxvt.color1:red3
-Rxvt.color2:springgreen
-Rxvt.color3:wheat3
-Rxvt.color4:navy
-Rxvt.color5:magenta4
-Rxvt.color6:steelblue1
-Rxvt.color7:gray85
-Rxvt.color8:gray10
-Rxvt.color9:orangered2
-Rxvt.color10:chartreuse3
-Rxvt.color11:lightgoldenrod2
-Rxvt.color12:skyblue1
-Rxvt.color13:pink1
-Rxvt.color14:lightblue1
-Rxvt.scrollBar:False
-Rxvt.saveLines:3000
-!!Rxvt.font:-b&h-lucidatypewriter-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
-!!Rxvt.mfont:-*-simsun-medium-r-normal-16-14-*-*-*-c-*-gb*-*
-!!Rxvt.font:xft:Bitstream Vera Sans Mono-12,xft:WenQuanYi Bitmap Song-12
-!!Rxvt.boldFont:xft:Bitstream Vera Sans Mono-12:Bold,xft:WenQuanYi Bitmap Song-12:Bold
-Rxvt.font:xft:consolas-12,xft:WenQuanYi Bitmap Song-12
-Rxvt.boldFont:xft:consolas-12:Bold,xft:WenQuanYi Bitmap Song-12:Bold
-Rxvt.menu:/etc/X11/rxvt.menu
-Rxvt.preeditType:Root
+!!$HOME/.Xdefaults
+URxvt.preeditType:Root
+!!调整此处设置输入法
+URxvt.inputMethod:ibus
+!!颜色设置
+URxvt.depth:32
+!!中括号内数表示透明度
+URxvt.background: [90]#000000
+URxvt.foreground:  #ffffff
+URxvt.colorBD:Gray95
+URxvt.colorUL:Green
+URxvt.color1:Red2
+URxvt.color4:RoyalBlue
+URxvt.color5:Magenta2
+URxvt.color8:Gray50
+URxvt.color10:Green2
+URxvt.color12:DodgerBlue
+URxvt.color14:Cyan2
+URxvt.color15:Gray95
+!!URL操作
+URxvt.urlLauncher:chromium
+URxvt.matcher.button:1
+Urxvt.perl-ext-common:matcher
+!!滚动条设置
+URxvt.scrollBar:True
+URxvt.scrollBar_right:True
+URxvt.scrollBar_floating:False
+URxvt.scrollstyle:plain
+!!滚屏设置
+URxvt.mouseWheelScrollPage:True
+URxvt.scrollTtyOutput: False
+URxvt.scrollWithBuffer: True
+URxvt.scrollTtyKeypress: True
+!!光标闪烁
+URxvt.cursorBlink:True
+URxvt.saveLines:3000
+!!边框
+URxvt.borderLess:      False
+!!字体设置
+Xft.dpi:96
+URxvt.font:xft:文泉驿等宽正黑:size=13:style=Regular:antialias=true,xft:文泉驿等宽正黑:size=13:style=Regular:antialias=true
+URxvt.boldfont:xft:文泉驿等宽正黑:size=13:style=BOld:antialias=true,xft:文泉驿等宽正黑:size=13:style=Bold:antialias=true

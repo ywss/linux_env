@@ -61,5 +61,8 @@
 (setq ispell-list-command "list")
 (setq ispell-extra-args '("--sug-mode=ultra"))
 
+;; no tool bar
+(tool-bar-mode -1)
+
 ;; zap-up-to-char, forward-to-word, backward-to-word, etc
 (require 'misc)

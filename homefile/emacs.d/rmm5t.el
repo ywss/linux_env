@@ -33,6 +33,9 @@
 
 ;; (load "rmm5t/hl-line")
 ;; (load "rmm5t/iswitchb")
+(load "rmm5t/ibus/ibus")
+(load "rmm5t/tidy")
+(setq ibus-agent-file-name "~/.emacs.d/rmm5t/ibus/ibus-el-agent")
 
 (vendor 'ruby-mode)
 (vendor 'rinari)
