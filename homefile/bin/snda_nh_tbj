@@ -1,0 +1,4 @@
+#!/bin/bash
+des="user     :domain users\npassword :domain password + dynamic\n===================="
+echo -e $des
+ssh -p 58422  xuxiaorong@114.80.134.32
