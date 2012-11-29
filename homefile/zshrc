@@ -4429,7 +4429,8 @@ zrclocal
 # {{{----------------------variables---------------------------------------
 export MAVEN_HOME=/home/xuxiaorong/Programs/apache-maven-3.0.4
 export TOMCAT_HOME=/home/xuxiaorong/Programs/apache-tomcat-6.0.29
-export JAVA_HOME=/usr/lib/jvm/default-java
+#export JAVA_HOME=/usr/lib/jvm/default-java
+export JAVA_HOME=/home/xuxiaorong/Programs/jdk1.6.0_29
 #export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-i386/
 #export IDEA_JDK=/usr/lib/jvm/java-7-openjdk-i386/
 export IDEA_JDK=$JAVA_HOME
